@@ -1,0 +1,31 @@
+/* Misc Rules */
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
+body { text-align: right; font-family: @fontFamily; background: @pageBackground; }
+.container { direction: rtl; }
+.list-unstyled { padding: 0; margin: 0; }
+.img {
+    display: block; width: 100%;
+    img { display: block; width: 100%; height: auto; }
+}
+img { border: 0 none; }
+a {
+    outline: 0 none;
+    &:after, &:before { cursor: pointer; }
+}
+.more {
+    margin-top: 40px;
+}
+.placeholder {
+    display: block; color: #d4d4d4; min-height: 60px; text-align: center; line-height: 60px;
+}
+._margin-top {  margin-top: @defaultMarginTop; }
+._margin-bottom {  margin-bottom: @defaultMarginBottom; }
+
+/* Icons */
+.icon { display: block; width: 60px; height: 60px; background: tomato; margin: 0 auto; line-height: 60px; text-align: center; color: #fff; border-radius: 50%; font-size: 24px; }
+
+/* Colors */
+._red { background: @red; }
+._blue{ background: @blueIcons; }
+._green { background: @green; }
